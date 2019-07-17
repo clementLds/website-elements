@@ -1,0 +1,46 @@
+.bloc h3{
+    text-align: center;
+}
+
+.metro-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.car-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bus-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bloc .divider {
+    width: 100px;
+    height: 2px;
+    background: #39CCCC;
+    margin: 0 auto 20px;
+}
+
