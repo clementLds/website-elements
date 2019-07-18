@@ -2,12 +2,41 @@
 
 body
 {
-    font-family: sans-serif !important;
+    font-family: sans-serif;
     padding:0px;
     margin:0px;
 }
 
-/* CONTACT INFORMATIONS */
+/* CONTACT INFORMATION*/
 
-#contactInformations{
+#contactInformation{
+    font-family:'Lato', sans-serif !important;
+}
+#contactInformation .contactElement{
+    text-align: center;
+}
+
+#contactInformation .contactElement .contactIcon{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    white-space: nowrap;
+    background-color: #222222;
+    color:#ffffff;
+    font-size:30px;
+    padding:auto;
+    margin:auto;
+}
+
+#contactInformation .contactElement h3, h4{
+
+}
+
+#contactInformation .contactElement h3{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+#contactInformation .contactElement h4{
+    font-size:15px;
 }
