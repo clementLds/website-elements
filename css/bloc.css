@@ -1,4 +1,18 @@
-.bloc h3{
+
+.bloc .entry-header,.entry-content{
+    padding: initial;
+}
+
+.page-id-7   .container
+{
+    
+    padding-left: 5px ;
+    padding-right: 5px ;
+    
+    
+}
+
+.titre-bloc{
     text-align: center;
 }
 
@@ -43,4 +57,3 @@
     background: #39CCCC;
     margin: 0 auto 20px;
 }
-
