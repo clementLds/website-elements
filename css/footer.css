@@ -1,0 +1,24 @@
+footer {
+    text-align: center;
+    padding: 60px 0 50px 0;
+    background-color: #323044;
+    color: white !important;
+}
+footer h5 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer a{
+    
+    color:#39CCCC;
+    
+}
+footer a:hover {
+    color: white;
+}
+footer #eater-egg {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
