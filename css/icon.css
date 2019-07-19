@@ -40,3 +40,10 @@ body
 .contactInformation .contactElement h4{
     font-size:15px;
 }
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .contactInformation .contactElement{
+        margin-bottom: 50px;
+    }
+}
