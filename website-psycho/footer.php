@@ -37,6 +37,10 @@
 				
 			</div>
 		</div>
+
+		<!-- EXTERN LINKS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
 	</footer>
 </div><!-- #page -->
 <?php wp_footer(); ?>
