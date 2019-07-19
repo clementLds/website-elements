@@ -52,8 +52,7 @@ footer a:visited{
     color :#39CCCC;
 } 
 
-
-/*----------RENDEZ-VOUS PAGE----------*/
+/*----------ACCES A MON CABINET PAGE----------*/
 
 /*Bloc Chemin Accès au cabinet*/
 
@@ -132,6 +131,44 @@ height:350px;
 width:100%;
 position:absolute;
 }
+
+/*----------RENDEZ-VOUS PAGE----------*/
+
+
+/* Contact information */
+
+#contactInformation{
+    font-family:'Lato', sans-serif !important;
+}
+#contactInformation .contactElement{
+    text-align: center;
+}
+
+#contactInformation .contactElement .contactIcon{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    white-space: nowrap;
+    background-color: #222222;
+    color:#ffffff;
+    font-size:30px;
+    padding:auto;
+    margin:auto;
+}
+
+#contactInformation .contactElement h3, h4{
+
+}
+
+#contactInformation .contactElement h3{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+#contactInformation .contactElement h4{
+    font-size:15px;
+}
+
 
 
 
