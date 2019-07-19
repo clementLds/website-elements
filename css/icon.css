@@ -9,14 +9,14 @@ body
 
 /* CONTACT INFORMATION*/
 
-#contactInformation{
+.contactInformation{
     font-family:'Lato', sans-serif !important;
 }
-#contactInformation .contactElement{
+.contactInformation .contactElement{
     text-align: center;
 }
 
-#contactInformation .contactElement .contactIcon{
+.contactInformation .contactElement .contactIcon{
     width:80px;
     height:80px;
     line-height: 80px;
@@ -28,15 +28,15 @@ body
     margin:auto;
 }
 
-#contactInformation .contactElement h3, h4{
+.contactInformation .contactElement h3, h4{
 
 }
 
-#contactInformation .contactElement h3{
+.contactInformation .contactElement h3{
     font-size:20px;
     text-transform: uppercase;
 }
 
-#contactInformation .contactElement h4{
+.contactInformation .contactElement h4{
     font-size:15px;
 }
