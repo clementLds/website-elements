@@ -137,9 +137,6 @@ position:absolute;
 
 /* Contact information */
 
-.contactInformation{
-    font-family:'Lato', sans-serif !important;
-}
 .contactInformation .contactElement{
     text-align: center;
 }
@@ -154,10 +151,6 @@ position:absolute;
     font-size:30px;
     padding:auto;
     margin:auto;
-}
-
-.contactInformation .contactElement h3, h4{
-
 }
 
 .contactInformation .contactElement h3{
