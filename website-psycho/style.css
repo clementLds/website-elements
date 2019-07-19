@@ -8,13 +8,13 @@ Description: Nisarg is a new fully responsive and translation ready theme that a
 Tags: flexible-header,two-columns,right-sidebar,theme-options,custom-colors,custom-background,custom-header,custom-menu,featured-images,post-formats,sticky-post,translation-ready,rtl-language-support,threaded-comments
 Version: 1.2.8.2.1563263794
 Updated: 2019-07-16 07:56:34
-
 */
 
 
-/*Général*/
+/*----------GENERAL----------*/
 
-/*Barre de Menu*/
+/*----------NAVBAR----------*/
+
 .main-navigation .navbar-brand {
     color: #323044; 
     font-family: 'Helvetica Neue', sans-serif; 
@@ -23,16 +23,10 @@ Updated: 2019-07-16 07:56:34
     letter-spacing: -1px; 
     line-height: 1; 
     text-align: center; 
-    
 }
 
 
-
-
-
-
-
-/*Footer*/
+/*----------FOOTER----------*/
 
 footer {
     text-align: center;
@@ -58,13 +52,9 @@ footer a:visited{
     color :#39CCCC;
 } 
 
-
-/*Page Rendez Vous*/
-
+/*----------ACCES A MON CABINET PAGE----------*/
 
 /*Bloc Chemin Accès au cabinet*/
-
-
 
 .bloc .entry-header,.entry-content{
     padding: initial;
@@ -125,7 +115,6 @@ footer a:visited{
     margin: 0 auto 20px;
 }
 
-
 /*Maps*/
 
 .map-responsive {
@@ -142,6 +131,44 @@ height:350px;
 width:100%;
 position:absolute;
 }
+
+/*----------RENDEZ-VOUS PAGE----------*/
+
+
+/* Contact information */
+
+.contactInformation .contactElement{
+    text-align: center;
+}
+
+.contactInformation .contactElement .contactIcon{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    white-space: nowrap;
+    background-color: #222222;
+    color:#ffffff;
+    font-size:30px;
+    padding:auto;
+    margin:auto;
+}
+
+.contactInformation .contactElement h3{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.contactInformation .contactElement h4{
+    font-size:15px;
+}
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .contactInformation .contactElement{
+        margin-bottom: 50px;
+    }
+}
+
 
 
 
