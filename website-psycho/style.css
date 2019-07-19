@@ -8,13 +8,12 @@ Description: Nisarg is a new fully responsive and translation ready theme that a
 Tags: flexible-header,two-columns,right-sidebar,theme-options,custom-colors,custom-background,custom-header,custom-menu,featured-images,post-formats,sticky-post,translation-ready,rtl-language-support,threaded-comments
 Version: 1.2.8.2.1563263794
 Updated: 2019-07-16 07:56:34
-
 */
 
 
-/*Général*/
+/*----------GENERAL----------*/
 
-/*Barre de Menu*/
+/*----------NAVBAR----------*/
 .main-navigation .navbar-brand {
     color: #323044; 
     font-family: 'Helvetica Neue', sans-serif; 
@@ -27,12 +26,7 @@ Updated: 2019-07-16 07:56:34
 }
 
 
-
-
-
-
-
-/*Footer*/
+/*----------FOOTER----------*/
 
 footer {
     text-align: center;
@@ -59,12 +53,9 @@ footer a:visited{
 } 
 
 
-/*Page Rendez Vous*/
-
+/*----------RENDEZ-VOUS PAGE----------*/
 
 /*Bloc Chemin Accès au cabinet*/
-
-
 
 .bloc .entry-header,.entry-content{
     padding: initial;
@@ -124,7 +115,6 @@ footer a:visited{
     background: #39CCCC;
     margin: 0 auto 20px;
 }
-
 
 /*Maps*/
 
