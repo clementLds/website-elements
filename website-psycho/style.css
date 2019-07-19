@@ -44,13 +44,17 @@ footer a{
     color:#39CCCC;
     
 }
+
+footer a:visited {
+    color: #39CCCC;
+}
+
+
 footer a:hover {
     color: white;
 }
 
-footer a:visited{
-    color :#39CCCC;
-} 
+ 
 
 /*----------ACCES A MON CABINET PAGE----------*/
 
