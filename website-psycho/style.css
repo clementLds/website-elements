@@ -1,0 +1,150 @@
+/*
+Theme Name: Nisarg Child 02
+Theme URI: https://www.falgunithemes.com/downloads/nisarg/
+Template: nisarg
+Author: Falguni Desai
+Author URI: https://www.falgunithemes.com
+Description: Nisarg is a new fully responsive and translation ready theme that allows you to create stunning blogs and websites. Theme is well suited for travel, photography, recipe, design, art, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablets friendly. It has various options in WordPress Customizer to change look of the theme. Theme customizer can be used to add your own header image of flexible height, background image, to set background color, header text color and accent color.
+Tags: flexible-header,two-columns,right-sidebar,theme-options,custom-colors,custom-background,custom-header,custom-menu,featured-images,post-formats,sticky-post,translation-ready,rtl-language-support,threaded-comments
+Version: 1.2.8.2.1563263794
+Updated: 2019-07-16 07:56:34
+
+*/
+
+
+/*Général*/
+
+/*Barre de Menu*/
+.main-navigation .navbar-brand {
+    color: #323044; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+    
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    padding: 60px 0 50px 0;
+    background-color: #323044;
+    color: white !important;
+}
+footer h5 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer a{
+    
+    color:#39CCCC;
+    
+}
+footer a:hover {
+    color: white;
+}
+
+footer a:visited{
+    color :#39CCCC;
+} 
+
+
+/*Page Rendez Vous*/
+
+
+/*Bloc Chemin Accès au cabinet*/
+
+
+
+.bloc .entry-header,.entry-content{
+    padding: initial;
+}
+
+.page-id-7   .container
+{
+    
+    padding-left: 5px ;
+    padding-right: 5px ;
+    
+    
+}
+
+.titre-bloc{
+    text-align: center;
+}
+
+.metro-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.car-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bus-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bloc .divider {
+    width: 100px;
+    height: 2px;
+    background: #39CCCC;
+    margin: 0 auto 20px;
+}
+
+
+/*Maps*/
+
+.map-responsive {
+overflow:hidden;
+padding-bottom:36.25%;
+position:relative;>
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:350px;
+width:100%;
+position:absolute;
+}
+
+
+
+
+
+
