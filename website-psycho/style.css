@@ -14,6 +14,7 @@ Updated: 2019-07-16 07:56:34
 /*----------GENERAL----------*/
 
 /*----------NAVBAR----------*/
+
 .main-navigation .navbar-brand {
     color: #323044; 
     font-family: 'Helvetica Neue', sans-serif; 
@@ -22,7 +23,6 @@ Updated: 2019-07-16 07:56:34
     letter-spacing: -1px; 
     line-height: 1; 
     text-align: center; 
-    
 }
 
 
@@ -160,6 +160,13 @@ position:absolute;
 
 .contactInformation .contactElement h4{
     font-size:15px;
+}
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .contactInformation .contactElement{
+        margin-bottom: 50px;
+    }
 }
 
 
