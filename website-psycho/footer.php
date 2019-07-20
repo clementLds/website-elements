@@ -24,7 +24,7 @@
 
 				<div class="col-sm-4 col-xs-12 center-block">
 					<h5>Psychologue Psychanalyste</h5>
-					<a href="">20 Rue Francis Mariotte<br> 35200 Rennes Cedex 7</a>
+					<a href="https://psycho.icariom.com/wp/acces-a-mon-cabinet/">20 Rue Francis Mariotte<br> 35200 Rennes Cedex 7</a>
 				</div>
 
 				<div class="col-sm-4 col-xs-12 center-block">
