@@ -26,6 +26,12 @@ Updated: 2019-07-16 07:56:34
 }
 
 
+/*----------POSTS----------*/
+
+.hentry.type-post .entry-meta {
+    display: none; /* Disable display for metadata (date, author and number of comments) on posts */
+}
+
 /*----------FOOTER----------*/
 
 footer {
