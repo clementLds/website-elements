@@ -55,6 +55,11 @@ footer a:hover {
 }
 
  
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title {
+    color:black; 
+}
 
 /*----------ACCES A MON CABINET PAGE----------*/
 
@@ -135,6 +140,25 @@ height:350px;
 width:100%;
 position:absolute;
 }
+
+
+
+
+
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title{
+    color:#222222; 
+}
+
+.site-description {
+    color:#222222
+}
+
+
+
+
+
 
 /*----------RENDEZ-VOUS PAGE----------*/
 
