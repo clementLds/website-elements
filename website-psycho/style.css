@@ -275,3 +275,22 @@ position:absolute;
                               inset 2px 2px 3px rgba(0, 0, 0, .6) !important;
 }
 
+/*----------404 PAGE----------*/
+
+.page404{
+    margin:50px auto 50px auto;
+}
+
+.title404{
+    font-size:37px;
+}
+
+.p404{
+    font-size:23px;
+}
+
+.li404{
+    list-style: disc;
+    font-size:20px
+}
+
