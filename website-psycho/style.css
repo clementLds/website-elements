@@ -55,6 +55,11 @@ footer a:hover {
 }
 
  
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title {
+    color:black; 
+}
 
 /*----------ACCES A MON CABINET PAGE----------*/
 
@@ -136,6 +141,25 @@ width:100%;
 position:absolute;
 }
 
+
+
+
+
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title{
+    color:#222222; 
+}
+
+.site-description {
+    color:#222222
+}
+
+
+
+
+
+
 /*----------RENDEZ-VOUS PAGE----------*/
 
 
@@ -173,7 +197,61 @@ position:absolute;
     }
 }
 
+/* Contactform */
 
+.contactform{
+    padding:20px;
+    margin:50px;
+    background-color:#cccccc;
+    border: 2px solid  #333;
+    border-radius: 15px;
+}
+
+.contactformTitle{
+    font-size:40px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.contactformInput, .contactformButton{
+    text-align: center;
+}
+
+.contactformButton{
+    
+}
+
+.contactformLabel{
+    text-align: left;
+}
+
+.contactformElement{
+    
+}
+
+.contactform-name{
+    
+}
+
+.contactform-email{
+    
+}
+
+.contactform-tel{
+    
+}
+
+.contactform-subject{
+    
+}
+
+.contactform-message{
+    
+}
+
+.contactform-submit{
+    
+}
 
 
 
