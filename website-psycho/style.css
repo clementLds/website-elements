@@ -32,6 +32,10 @@ Updated: 2019-07-16 07:56:34
     display: none; /* Disable display for metadata (date, author and number of comments) on posts */
 }
 
+.archive-page-header{
+    display:none; /* Disable display for header title on post archive pages*/
+}
+
 /*----------FOOTER----------*/
 
 footer {
@@ -298,5 +302,12 @@ position:absolute;
 .li404{
     list-style: disc;
     font-size:20px
+}
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .block404{
+        margin-bottom: 50px;
+    }
 }
 
