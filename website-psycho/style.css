@@ -32,6 +32,10 @@ Updated: 2019-07-16 07:56:34
     display: none; /* Disable display for metadata (date, author and number of comments) on posts */
 }
 
+.archive-page-header{
+    display:none; /* Disable display for header title on post archive pages*/
+}
+
 /*----------FOOTER----------*/
 
 footer {
