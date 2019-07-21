@@ -51,7 +51,7 @@
 	<div id="cc_spacer"></div><!-- used to clear fixed navigation by the themes js -->  
 	<div class="site-header">
 		<div class="site-branding">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<a class="home-link" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				
                 <?php   if ( is_page(26) ) { ?>
                     <h1 class="site-title wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'name' ); ?></h1>
