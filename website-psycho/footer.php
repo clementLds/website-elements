@@ -30,7 +30,7 @@
 				<div class="col-sm-4 col-xs-12 center-block">
 					<h5>Un site réalisé par </h5>
 					
-						<a href="https://www.linkedin.com/in/florian-even/">Florian Even </a>et <a href="https://www.linkedin.com/in/clement-landais/"> Clément Landais</a>
+						<a class="wow fadeIn" data-wow-delay=".08s" href="https://www.linkedin.com/in/florian-even/">Florian Even </a>et <a class="wow fadeIn" data-wow-delay=".06s" href="https://www.linkedin.com/in/clement-landais/"> Clément Landais</a>
 					
 				</div>
 

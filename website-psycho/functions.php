@@ -17,9 +17,32 @@ add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
     function chld_thm_cfg_parent_css() {
         wp_enqueue_style( 'chld_thm_cfg_parent', trailingslashit( get_template_directory_uri() ) . 'style.css', array( 'bootstrap','font-awesome' ) );
+        
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css' );
+
+
+//* Do NOT include the opening php tag
+//* Enqueue Animate.CSS and WOW.js
+add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
+function sk_enqueue_scripts() {
+	wp_enqueue_style( 'animate', get_stylesheet_directory_uri() . '/animate.css' );
+	wp_enqueue_script( 'wow', get_stylesheet_directory_uri() . '/js/wow.min.js', array(), '', true );
+}
+//* Enqueue script to activate WOW.js
+add_action('wp_enqueue_scripts', 'sk_wow_init_in_footer');
+function sk_wow_init_in_footer() {
+	add_action( 'print_footer_scripts', 'wow_init' );
+}
+//* Add JavaScript before </body>
+function wow_init() { ?>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+<?php }
+
+
 
 // END ENQUEUE PARENT ACTION
 
