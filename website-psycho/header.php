@@ -54,8 +54,8 @@
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				
                 <?php   if ( is_page(26) ) { ?>
-                    <h1 class="site-title wow fadeIn" data-wow-delay=".08s"><?php bloginfo( 'name' ); ?></h1>
-				    <h2 class="site-description wow fadeIn" data-wow-delay=".08s"><?php bloginfo( 'description' ); ?></h2>
+                    <h1 class="site-title wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'name' ); ?></h1>
+				    <h2 class="site-description wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'description' ); ?></h2>
                 <?php } else {?>
                     <h1 class="site-title" ><?php bloginfo( 'name' ); ?></h1>
 				    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>

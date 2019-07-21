@@ -19,7 +19,7 @@
 					<h5>Contact</h5>
 					<p><a  class="wow fadeIn" data-wow-delay=".08s">Léa Caron De Fromentel</a><br>
 					+33 6 72 04 65 30<br>
-					<a  class="wow fadeIn" data-wow-delay=".08s" href="/legal.php">Mentions légales</a></p>
+					<a  class="wow fadeIn" data-wow-delay=".08s" href="https://psycho.icariom.com/wp/mentions-legales/">Mentions légales</a></p>
 				</div>
 
 				<div class="col-sm-4 col-xs-12 center-block">
@@ -30,7 +30,7 @@
 				<div class="col-sm-4 col-xs-12 center-block">
 					<h5>Un site réalisé par </h5>
 					
-						<a class="wow fadeIn" data-wow-delay=".08s" href="https://www.linkedin.com/in/florian-even/">Florian Even </a>et <a class="wow fadeIn" data-wow-delay=".06s" href="https://www.linkedin.com/in/clement-landais/"> Clément Landais</a>
+						<a class="wow fadeIn" data-wow-delay=".04s" href="https://www.linkedin.com/in/florian-even/">Florian Even </a>et <a class="wow fadeIn" data-wow-delay=".04s" href="https://www.linkedin.com/in/clement-landais/"> Clément Landais</a>
 					
 				</div>
 
