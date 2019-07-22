@@ -13,6 +13,15 @@ Updated: 2019-07-16 07:56:34
 
 /*----------GENERAL----------*/
 
+
+.entry-title{
+    font-family: 'Poppins',sans-serif;
+}
+.entry-content{
+    font-family: 'Poppins',sans-serif;
+}
+
+
 /*----------NAVBAR----------*/
 
 .main-navigation .navbar-brand {
