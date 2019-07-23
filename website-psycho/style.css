@@ -13,6 +13,26 @@ Updated: 2019-07-16 07:56:34
 
 /*----------GENERAL----------*/
 
+
+.entry-title{
+    font-family: 'Poppins',sans-serif;
+}
+.entry-content{
+    font-family: 'Poppins',sans-serif;
+}
+
+/*--------HEADER---------*/
+
+
+.page-id-26 .site-header{
+    padding-bottom:300px;
+    font-size:15px;
+
+
+}
+
+
+
 /*----------NAVBAR----------*/
 
 .main-navigation .navbar-brand {
@@ -25,7 +45,9 @@ Updated: 2019-07-16 07:56:34
     text-align: center; 
 }
 
-
+.main-navigation ul {
+    font-size:14px;
+}
 /*----------POSTS----------*/
 
 .hentry.type-post .entry-meta {
@@ -71,11 +93,38 @@ footer a:hover {
     color:black; 
 }
 
+
+/*-----------------ARTICLES-------------------*/
+.entry-content{
+  padding-left:40px;
+  padding-right:40px;
+
+}
+
+.entry-title{
+  padding-left:40px;
+  padding-right:40px;
+  text-align:center;
+
+}
+
+.category-8 .post-content{
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.green-divider {
+    width: 100px;
+    height: 2px;
+    background: #009688;
+    margin: 0 auto 20px;
+}
+
+
 /*----------ACCES A MON CABINET PAGE----------*/
 
 /*Bloc Chemin Accès au cabinet*/
 
-.bloc .entry-header,.entry-content{
+.page-id-7 .entry-content{
     padding: initial;
 }
 
@@ -87,6 +136,7 @@ footer a:hover {
     
     
 }
+
 
 .titre-bloc{
     text-align: center;
