@@ -37,7 +37,7 @@
 						<span class="icon-bar"></span>
 					</button>
 				<?php } ?>
-					<a class="navbar-brand"></a>
+					<!--<a class="navbar-brand"></a>-->
 			</div><!-- .navbar-header -->
 			<?php if ( has_nav_menu( 'primary' ) ) {
 				wp_nav_menu( array(
@@ -48,7 +48,7 @@
 				) ); } ?>
 		</div><!--#container-->
 	</nav>
-	<div id="cc_spacer"></div><!-- used to clear fixed navigation by the themes js -->  
+	<!--<div id="cc_spacer"></div> used to clear fixed navigation by the themes js -->  
 	<div class="site-header">
 		<div class="site-branding">
 			<a class="home-link" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -56,9 +56,6 @@
                 <?php   if ( is_page(26) ) { ?>
                     <h1 class="site-title wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'name' ); ?></h1>
 				    <h2 class="site-description wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'description' ); ?></h2>
-                <?php } else {?>
-                    <!--<h1 class="site-title" ><?php bloginfo( 'name' ); ?></h1>
-				    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>-->
                 <?php } ?>
 			</a>
 		</div><!--.site-branding-->

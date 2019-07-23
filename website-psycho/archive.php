@@ -18,6 +18,11 @@ get_header(); ?>
 				</header><!-- .page-header -->
 				<div id="primary" class="col-md-12 content-area">
 					<main id="main" class="site-main" role="main">
+                     <?php   if ( is_category(8) ) { ?>
+                    <h1 class="entry-title wow fadeIn " data-wow-delay=".04s">Blog</h1>
+                    <div class="green-divider"></div>
+				    
+                <?php } ?>
 					<?php /* Start the Loop */
 					while ( have_posts() ) : the_post();
 						/*
