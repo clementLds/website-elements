@@ -31,8 +31,6 @@ Updated: 2019-07-16 07:56:34
 
 }
 
-
-
 /*----------NAVBAR----------*/
 
 .main-navigation .navbar-brand {
@@ -48,6 +46,7 @@ Updated: 2019-07-16 07:56:34
 .main-navigation ul {
     font-size:14px;
 }
+
 /*----------POSTS----------*/
 
 .hentry.type-post .entry-meta {
@@ -335,28 +334,28 @@ position:absolute;
                               inset 2px 2px 3px rgba(0, 0, 0, .6) !important;
 }
 
-/*----------404 PAGE----------*/
+/*----------404 PAGE & SEARCH PAGE----------*/
 
-.page404{
+.page404, .pageSearch{
     margin:50px auto 50px auto;
 }
 
-.title404{
+.title404, .titleSearch{
     font-size:37px;
 }
 
-.p404{
+.p404, .pSearch{
     font-size:23px;
 }
 
-.li404{
+.li404, .liSearch{
     list-style: disc;
     font-size:20px
 }
 
 @media screen and (min-width:0px) and (max-width:991px)
 {
-    .block404{
+    .block404, .blockSearch{
         margin-bottom: 50px;
     }
 }
