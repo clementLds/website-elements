@@ -23,6 +23,12 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css' );
 
 
+
+function wpm_post_excerpt($length) {
+	return 20;
+}
+add_filter('excerpt_length', 'wpm_post_excerpt');
+
 //* Do NOT include the opening php tag
 //* Enqueue Animate.CSS and WOW.js
 add_action( 'wp_enqueue_scripts', 'sk_enqueue_scripts' );
