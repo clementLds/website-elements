@@ -21,6 +21,20 @@ Updated: 2019-07-16 07:56:34
     font-family: 'Poppins',sans-serif;
 }
 
+
+
+/*--------NAVBAR---------*/
+
+.main-navigation{
+    background-color:#323044; 
+}
+
+.main-navigation .primary-menu > li > a {
+    border-top: 4px solid #323044;
+    border-bottom: 4px solid #323044;
+    color: #fff;
+}
+
 /*--------HEADER---------*/
 
 
@@ -94,6 +108,13 @@ footer a:hover {
 
 
 /*-----------------ARTICLES-------------------*/
+
+.site-header-bloc {
+				
+				background-size: cover;
+}
+
+
 .entry-content{
   padding-left:40px;
   padding-right:40px;
@@ -107,8 +128,21 @@ footer a:hover {
 
 }
 
+.category-8 .entry-header .entry-title a{
+    color:#39CCCC;
+}
+
+.category-8 .entry-header .entry-title a:hover{
+    color:#009688;
+}
+
+
 .category-8 .post-content{
     box-shadow: 0px 0px 10px #000000;
+}
+
+.category-8 .featured-image img{
+    margin: 30px 30px 30px 30px;
 }
 
 .green-divider {
