@@ -49,16 +49,16 @@
 		</div><!--#container-->
 	</nav>
 	<!--<div id="cc_spacer"></div> used to clear fixed navigation by the themes js -->
-    <?php   if ( is_category(8) ) { ?>
+    <?php   if ( is_category(3) ) { ?>
             <div class="site-header-bloc">
-                <img src="https://psycho.icariom.com/wp/wp-content/uploads/2019/08/library-e1564774197893.jpeg" class="attachment-nisarg-full-width size-nisarg-full-width wp-post-image" alt="marx et freud">
+                <img src="https://psychologue-psychanalyste-rennes-35.fr/wp-content/uploads/2019/08/library-cropped.jpeg" class="attachment-nisarg-full-width size-nisarg-full-width wp-post-image" alt="marx et freud">
             </div><!--.site-header-->
     <?php   }else{  ?>
 	<div class="site-header">
 		<div class="site-branding">
 			<a class="home-link" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				
-                <?php   if ( is_page(26) ) { ?>
+                <?php   if ( is_page(7) ) { ?>
                     <h1 class="site-title wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'name' ); ?></h1>
 				    <h2 class="site-description wow fadeIn" data-wow-delay=".04s"><?php bloginfo( 'description' ); ?></h2>
                 <?php } ?>
