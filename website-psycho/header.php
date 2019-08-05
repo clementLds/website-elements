@@ -48,7 +48,12 @@
 				) ); } ?>
 		</div><!--#container-->
 	</nav>
-	<!--<div id="cc_spacer"></div> used to clear fixed navigation by the themes js -->  
+	<!--<div id="cc_spacer"></div> used to clear fixed navigation by the themes js -->
+    <?php   if ( is_category(8) ) { ?>
+            <div class="site-header-bloc">
+                <img src="https://psycho.icariom.com/wp/wp-content/uploads/2019/08/library-e1564774197893.jpeg" class="attachment-nisarg-full-width size-nisarg-full-width wp-post-image" alt="marx et freud">
+            </div><!--.site-header-->
+    <?php   }else{  ?>
 	<div class="site-header">
 		<div class="site-branding">
 			<a class="home-link" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -60,5 +65,6 @@
 			</a>
 		</div><!--.site-branding-->
 	</div><!--.site-header-->
+    <?php } ?>
 </header>
 <div id="content" class="site-content">
