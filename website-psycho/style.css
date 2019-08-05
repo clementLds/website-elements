@@ -106,6 +106,64 @@ footer a:hover {
     color:black; 
 }
 
+.home_textContainer{
+    width:100%;
+    text-align:center;
+}
+
+.home_name{
+    font-size: 50px;
+    margin-bottom:30px;
+}
+
+.home_work{
+    margin-bottom:30px;
+}
+
+.home_work h4{
+    font-size: 30px;
+}
+
+.home_a-beautiful-sentence{
+    font-size: 20px;
+}
+
+.contactMeButtonContainer{
+    text-align: center;
+    width:100%;
+    margin: 60px auto;
+}
+
+.contactMeButton{
+    text-transform: uppercase;
+    font-size:25px;
+    width:500px;
+    border: 0;
+    line-height: 2.5;
+    padding: 30px 50px;
+    font-size: 20px;
+    text-align: center ;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000 ;
+    border-radius: 10px ;
+    background-color: rgba(58, 56, 79, 1) ;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0)) ;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6) ;
+}
+
+.contactMeButton:hover{
+     background-color: rgba(67, 64, 91, 1) ;
+}
+
+.contactMeButton:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                              inset 2px 2px 3px rgba(0, 0, 0, .6) ;
+}
+
 
 /*-----------------ARTICLES-------------------*/
 
