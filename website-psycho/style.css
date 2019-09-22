@@ -1,0 +1,485 @@
+/*
+Theme Name: Nisarg Child 02
+Theme URI: https://www.falgunithemes.com/downloads/nisarg/
+Template: nisarg
+Author: Falguni Desai
+Author URI: https://www.falgunithemes.com
+Description: Nisarg is a new fully responsive and translation ready theme that allows you to create stunning blogs and websites. Theme is well suited for travel, photography, recipe, design, art, personal and any other creative websites and blogs. The theme is developed using Bootstrap 3 that makes it mobile and tablets friendly. It has various options in WordPress Customizer to change look of the theme. Theme customizer can be used to add your own header image of flexible height, background image, to set background color, header text color and accent color.
+Tags: flexible-header,two-columns,right-sidebar,theme-options,custom-colors,custom-background,custom-header,custom-menu,featured-images,post-formats,sticky-post,translation-ready,rtl-language-support,threaded-comments
+Version: 1.2.8.2.1563263794
+Updated: 2019-07-16 07:56:34
+*/
+
+
+/*----------GENERAL----------*/
+
+
+.entry-title{
+    font-family: 'Poppins',sans-serif;
+}
+.entry-content{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+/*--------NAVBAR---------*/
+
+.main-navigation{
+    background-color:#323044; 
+}
+
+.main-navigation .primary-menu > li > a {
+    border-top: 4px solid #323044;
+    border-bottom: 4px solid #323044;
+    color: #fff;
+}
+
+/*--------HEADER---------*/
+
+
+.page-id-7 .site-header{
+    padding-bottom:300px;
+    font-size:15px;
+
+
+}
+
+/*----------NAVBAR----------*/
+
+.main-navigation .navbar-brand {
+    color: #323044; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 25px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+.main-navigation ul {
+    font-size:14px;
+}
+
+/*----------POSTS----------*/
+
+.hentry.type-post .entry-meta {
+    display: none; /* Disable display for metadata (date, author and number of comments) on posts */
+}
+
+.archive-page-header{
+    display:none; /* Disable display for header title on post archive pages*/
+}
+
+/*----------FOOTER----------*/
+
+footer {
+    text-align: center;
+    padding: 60px 0 50px 0;
+    background-color: #323044;
+    color: white !important;
+}
+footer h5 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer a{
+    
+    color:#39CCCC;
+    
+}
+
+footer a:visited {
+    color: #39CCCC;
+}
+
+
+footer a:hover {
+    color: white;
+}
+
+ 
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title {
+    color:black; 
+}
+
+.home_textContainer{
+    width:100%;
+    text-align:center;
+}
+
+.home_name{
+    font-size: 50px;
+    margin-bottom:30px;
+}
+
+.home_work{
+    margin-bottom:30px;
+}
+
+.home_work h4{
+    font-size: 30px;
+}
+
+.home_a-beautiful-sentence{
+    font-size: 20px;
+}
+
+.contactMeButtonContainer{
+    text-align: center;
+    width:100%;
+    margin: 60px auto;
+}
+
+.contactMeButton{
+    /*text-transform: uppercase;
+    font-size:25px;
+    width:500px;
+    border: 0;
+    line-height: 2.5;
+    padding: 30px 50px;
+    font-size: 20px;
+    text-align: center ;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000 ;
+    border-radius: 10px ;
+    background-color: rgba(58, 56, 79, 1) ;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0)) ;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6) ;*/
+    padding:16px 16px 16px 16px;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#FA8072;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+
+.contactMe:hover{
+     background-color: #FA8072 ;
+     color: #FFFFFF;
+}
+
+.contactMeButton:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                              inset 2px 2px 3px rgba(0, 0, 0, .6) ;
+}
+.contactMeButton:visited{
+        color:#FA8072;
+}
+
+
+/*-----------------ARTICLES-------------------*/
+
+.site-header-bloc {
+				
+				background-size: cover;
+}
+
+
+.entry-content{
+  padding-left:40px;
+  padding-right:40px;
+
+}
+
+.entry-title{
+  padding-left:40px;
+  padding-right:40px;
+  text-align:center;
+
+}
+
+.category-3 .entry-header .entry-title a{
+    color:#39CCCC;
+}
+
+.category-3 .entry-header .entry-title a:hover{
+    color:#009688;
+}
+
+
+.category-3 .post-content{
+    box-shadow: 0px 0px 10px #000000;
+}
+
+@media only screen and (max-width: 300px) {
+.category-3 .site-header-bloc img{
+     margin-top: 3em; 
+}
+}
+
+@media only screen and (min-width: 600px) {
+.category-3 .featured-image img{
+     margin: 30px 30px 30px 30px; 
+}
+}
+
+.green-divider {
+    width: 100px;
+    height: 2px;
+    background: #009688;
+    margin: 0 auto 20px;
+}
+
+
+/*----------ACCES A MON CABINET PAGE----------*/
+
+/*Bloc Chemin Accès au cabinet*/
+
+.page-id-31 .entry-content{
+    padding: initial;
+}
+
+.page-id-31   .container
+{
+    
+    padding-left: 5px ;
+    padding-right: 5px ;
+    
+    
+}
+
+
+.titre-bloc{
+    text-align: center;
+}
+
+.metro-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+.car-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bus-block{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #F0F8FF;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
+.bloc .divider {
+    width: 100px;
+    height: 2px;
+    background: #39CCCC;
+    margin: 0 auto 20px;
+}
+
+/*Maps*/
+
+.map-responsive {
+overflow:hidden;
+padding-bottom:36.25%;
+position:relative;
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:350px;
+width:100%;
+position:absolute;
+}
+
+
+
+
+
+/*----------PAGE D'ACCUEIL----------*/
+
+.site-title{
+    color:#222222; 
+}
+
+.site-description {
+    color:#222222
+}
+
+
+
+
+
+
+/*----------RENDEZ-VOUS PAGE----------*/
+
+
+/* Contact information */
+
+.contactInformation{
+    margin: 30px auto 30px auto;
+}
+
+.contactInformation .contactElement{
+    text-align: center;
+}
+
+.contactInformation .contactElement .contactIcon{
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    white-space: nowrap;
+    background-color: #222222;
+    color:#ffffff;
+    font-size:30px;
+    padding:auto;
+    margin:auto;
+}
+
+.contactInformation .contactElement h3{
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.contactInformation .contactElement h4{
+    font-size:15px;
+}
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .contactInformation .contactElement{
+        margin-bottom: 50px;
+    }
+}
+
+/* Contactform */
+
+.contactform{
+    padding:20px 20px 0 20px;
+    margin:50px;
+    border: 2px solid  #333;
+    border-radius: 3px;
+}
+
+.contactformTitle{
+    text-transform: uppercase;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.contactformStar{
+    color:red;
+}
+
+.contactformInput, .contactformButton{
+    text-align: center;
+    width:100%;
+}
+
+.contactformLabel{
+    text-align: left;
+    width:100%;
+}
+
+.contactformInput .contactformElement, .contactformButton .contactformElement{
+    width:100%;
+}
+
+.contactformInput .contactformElement, .contactformCaptcha .contactformElement{
+    border-radius:8px !important;
+    color:#444 !important;
+}
+
+.contactform-message .contactformElement{
+    height:100px;
+}
+
+.contactform-submit{
+    margin-bottom:-40px;
+}
+
+.contactform-submit .contactformElement{
+    /*border: 0 !important;
+    line-height: 2.5 !important;
+    padding: 0 20px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    border-radius: 10px !important;
+    background-color: rgba(58, 56, 79, 1) !important;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0)) !important;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6) !important;*/
+    
+    padding:16px 20px 16px 16px;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#F9273A;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+    margin-bottom:35px;
+}
+
+.contactform-submit .contactformElement:hover{
+     /*background-color: rgba(67, 64, 91, 1) !important;*/
+     background-color: #FA8072;
+}
+
+.contactform-submit .contactformElement:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                              inset 2px 2px 3px rgba(0, 0, 0, .6) !important;
+}
+
+/*----------404 PAGE & SEARCH PAGE----------*/
+
+.page404, .pageSearch{
+    margin:50px auto 50px auto;
+}
+
+.title404, .titleSearch{
+    font-size:37px;
+}
+
+.p404, .pSearch{
+    font-size:23px;
+}
+
+.li404, .liSearch{
+    list-style: disc;
+    font-size:20px
+}
+
+@media screen and (min-width:0px) and (max-width:991px)
+{
+    .block404, .blockSearch{
+        margin-bottom: 50px;
+    }
+}
+

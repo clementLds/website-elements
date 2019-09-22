@@ -1,0 +1,83 @@
+/* GENERAL */
+
+body
+{
+    font-family: sans-serif;
+    padding:0px;
+    margin:0px;
+}
+
+/* CONTACTFORM-WORDPRESS*/
+
+
+.contactform{
+    padding:20px 20px 0 20px;
+    margin:50px;
+    border: 2px solid  #333;
+    border-radius: 3px;
+}
+
+.contactformTitle{
+    text-transform: uppercase;
+    font-size:30px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.contactformStar{
+    color:red;
+}
+
+.contactformInput, .contactformButton{
+    text-align: center;
+    width:100%;
+}
+
+.contactformLabel{
+    text-align: left;
+    width:100%;
+}
+
+.contactformInput .contactformElement, .contactformButton .contactformElement{
+    width:100%;
+}
+
+.contactformInput .contactformElement, .contactformCaptcha .contactformElement{
+    border-radius:8px !important;
+    color:#444 !important;
+}
+
+.contactform-message .contactformElement{
+    height:100px;
+}
+
+.contactform-submit{
+    margin-bottom:-40px;
+}
+
+.contactform-submit .contactformElement{
+    border: 0 !important;
+    line-height: 2.5 !important;
+    padding: 0 20px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    border-radius: 10px !important;
+    background-color: rgba(58, 56, 79, 1) !important;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0)) !important;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6) !important;
+}
+
+.contactform-submit .contactformElement:hover{
+     background-color: rgba(67, 64, 91, 1) !important;
+}
+
+.contactform-submit .contactformElement:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                              inset 2px 2px 3px rgba(0, 0, 0, .6) !important;
+}
