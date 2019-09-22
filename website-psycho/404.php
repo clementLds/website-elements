@@ -20,9 +20,9 @@ get_header(); ?>
 									<div class="block404">
 										<p class="p404">Voici quelques liens utiles à la place :</p>
 										<ul>
-											<li class="li404"><a href="https://psycho.icariom.com/wp/">Page d'accueil</a></li>
-											<li class="li404"><a href="https://psycho.icariom.com/wp/acces-a-mon-cabinet/">Accès à mon cabinet</a></li>
-											<li class="li404"><a href="https://psycho.icariom.com/wp/prendre-rendez-vous/">Prendre rendez-vous</a></li>
+											<li class="li404"><a href="https://psychologue-psychanalyste-rennes-35.fr/">Page d'accueil</a></li>
+											<li class="li404"><a href="https://psychologue-psychanalyste-rennes-35.fr/acces-a-mon-cabinet/">Accès à mon cabinet</a></li>
+											<li class="li404"><a href="https://psychologue-psychanalyste-rennes-35.fr/contactez-moi/">Prendre rendez-vous</a></li>
 										</ul>
 									</div>
 								</div>
